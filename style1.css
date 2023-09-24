@@ -13,10 +13,11 @@ section {
 
 .gallery-img {
   width: 100%;
+  height: 300px;
 }
 
 #gallery .row > * {
-  padding: 0;
+  padding: 1;
 }
 /* My Cyber Security */
 .cyber-security-box {
@@ -96,3 +97,4 @@ section {
 .cyber-security-box:hover .cyber-security-img {
   transform: translate3d(-50%, -52%, 100px) rotate(2deg) scale(1.2);
 }
+
