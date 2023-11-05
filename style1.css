@@ -13,11 +13,10 @@ section {
 
 .gallery-img {
   width: 100%;
-  height: 300px;
 }
 
 #gallery .row > * {
-  padding: 1;
+  padding: 0;
 }
 /* My Cyber Security */
 .cyber-security-box {
@@ -64,8 +63,37 @@ section {
   transition: 0.5s;
 }
 
+.cyber-security-box:hover .cyber-security-name {
+  top: 20px;
+  opacity: 1;
+}
+
+.cyber-detail-button {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate3d(-50%, 0, 100px);
+  opacity: 0;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.cyber-security-box:hover .cyber-detail-button {
+  opacity: 1;
+  bottom: 2px;
+}
+
+.cyber-security-img {
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate3d(-50%, -55%, 150px);
+  max-width: 350px;
+  transition: 0.5s;
+  z-index: 3;
+}
+
 .cyber-security-box:hover .cyber-security-img {
   transform: translate3d(-50%, -52%, 100px) rotate(2deg) scale(1.2);
-}
 
 
